@@ -1,10 +1,4 @@
 $(() => {
-  $('.nav').hover(
-    function () {
-      $(this).fadeOut()
-    },
-    function () {
-      $(this).fadeIn()
-    }
-  )
+  $('.title').slideToggle(4000)
+  $('.name').slideToggle(4000)
 })

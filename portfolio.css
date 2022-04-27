@@ -13,8 +13,8 @@
   font-size: 60px;
   color: black;
   margin-top: 5%;
-  display: flex;
-  justify-content: center;
+  display: none;
+  text-align: center;
 }
 
 .title {
@@ -22,10 +22,12 @@
   color: black;
   text-align: center;
   margin: -5px;
+  display: none;
 }
 
 body {
-  background-image: url('https://i.imgur.com/XjJlApD.jpg');
+  background-image: url('https://i.imgur.com/lapBObd.jpg');
+  background-size: cover;
 }
 
 a {
