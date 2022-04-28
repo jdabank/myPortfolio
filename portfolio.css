@@ -1,5 +1,6 @@
 * {
   font-family: Roboto;
+  scroll-behavior: smooth;
 }
 
 .nav {
@@ -39,6 +40,27 @@ a {
   width:30em;
   padding: 2em;
   border-radius: 56px;
-  margin-top: 75%;
+  margin-top: 20%;
   margin-left: 10%
+}
+
+#aboutme {
+  margin-top: 100%;
+  color: rgba(0, 0, 0, 0);
+}
+
+.projects {
+  background-color: white;
+  width: 15em;
+  padding: 2em;
+  border-radius: 56px;
+  margin-top: 80%;
+  margin-left: 67%;
+}
+
+img {
+  display: inline-block;
+  margin-left: 60%;
+  margin-top: -325px;
+  display: none;
 }

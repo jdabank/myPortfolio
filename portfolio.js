@@ -7,4 +7,5 @@ $(() => {
     $('a').mouseout(function(){
     $('a').css('color', 'black').css('text-shadow', 'none')
   })
+  $('img').slideDown(4000)
 })
