@@ -1,4 +1,4 @@
 $(() => {
-  $('.title').slideToggle(4000)
-  $('.name').slideToggle(4000)
+  $('.title').slideDown(4000)
+  $('.name').slideDown(4000)
 })
