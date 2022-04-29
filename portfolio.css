@@ -66,6 +66,14 @@ a {
   margin: 50% auto;
 }
 
+.contact {
+  background-color: white;
+  width: 15em;
+  padding: 2em;
+  border-radius: 56px;
+  margin: 50% auto;
+}
+
 img {
   display: inline-block;
   margin-left: 55%;
