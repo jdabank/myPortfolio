@@ -41,11 +41,11 @@ a {
   padding: 2em;
   border-radius: 56px;
   margin-top: 20%;
-  margin-left: 10%
+  margin-left: 20%;
 }
 
 #aboutme {
-  margin-top: 100%;
+  margin-top: 50%;
   color: rgba(0, 0, 0, 0);
 }
 
@@ -54,13 +54,51 @@ a {
   width: 15em;
   padding: 2em;
   border-radius: 56px;
-  margin-top: 80%;
-  margin-left: 67%;
+  margin-top: 50%;
+  margin-left: 60%;
+}
+
+.resume {
+  background-color: white;
+  width: 15em;
+  padding: 2em;
+  border-radius: 56px;
+  margin: 50% auto;
 }
 
 img {
   display: inline-block;
-  margin-left: 60%;
+  margin-left: 55%;
   margin-top: -325px;
   display: none;
+}
+
+@media (max-width: 900px) {
+  img {
+    display: inline-block;
+    margin: -30% auto;
+    display: none;
+  }
+  .aboutme {
+    background-color: white;
+    max-width:300px;
+    padding: 2em;
+    border-radius: 56px;
+    margin: 20% auto;
+  }
+  .projects {
+    background-color: white;
+    max-width: 300px;
+    padding: 2em;
+    border-radius: 56px;
+    margin: 50% auto;
+  }
+
+  .resume {
+    background-color: white;
+    max-width: 300px;
+    padding: 2em;
+    border-radius: 56px;
+    margin: 20% auto;
+  }
 }
