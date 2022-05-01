@@ -89,7 +89,7 @@ a {
 
 .contact {
   background-color: white;
-  width: 15em;
+  width: 20em;
   padding: 2em;
   border-radius: 56px;
   margin: 20% auto;
@@ -105,7 +105,7 @@ img {
 @media (max-width: 900px) {
   img {
     display: inline-block;
-    margin: -30% auto;
+    margin: -20% auto;
     display: none;
   }
   .aboutme {
