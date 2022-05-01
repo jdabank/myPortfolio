@@ -35,6 +35,12 @@ a {
   position: fixed;
 }
 
+#linkedin {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
 .aboutme {
   background-color: white;
   width:30em;
@@ -75,7 +81,7 @@ a {
 
 .resume {
   background-color: white;
-  width: 15em;
+  width: 25em;
   padding: 2em;
   border-radius: 56px;
   margin: 20% auto;
