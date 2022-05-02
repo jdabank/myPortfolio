@@ -37,5 +37,21 @@ $(() => {
     $('#linkedin').mouseout(function(){
     $('#linkedin').css('color', 'black').css('background-color', 'white')
   })
-  $('img').slideDown(4000)
+  $('#me').slideDown(4000)
+  // $('button').click(function() {
+  //   $('.img').css('display', 'none')
+  // })
+  let currentImgIndex = 0
+  const numOfImages = $('.carousel').children().length - 1
+
+  $('button').on('click', () => {
+    $('.carousel').children().eq(currentImgIndex).css('display', 'none')
+    if(currentImgIndex < numOfImages) {
+      currentImgIndex ++
+    } else {
+      currentImgIndex = 0
+    }
+    $('.carousel').children().eq(currentImgIndex).css('display', 'block')
+
+  })
 })

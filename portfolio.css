@@ -9,6 +9,12 @@
 
 }
 
+button {
+  background-color: grey;
+  color: white;
+  border-radius: 20px
+}
+
 .name {
   font-size: 60px;
   color: black;
@@ -48,6 +54,17 @@ a {
   border-radius: 56px;
   margin-top: 20%;
   margin-left: 20%;
+}
+
+.carousel {
+  background-color: white;
+  width:23em;
+  height: 250px;
+  padding: 2em;
+  border-radius: 56px;
+  margin-top: -15%;
+  margin-left: 20%;
+  align-items: center;
 }
 
 #aboutme {
@@ -95,15 +112,24 @@ a {
   margin: 20% auto;
 }
 
-img {
+#me {
   display: inline-block;
   margin-left: 55%;
   margin-top: -325px;
   display: none;
 }
 
+.img {
+  max-height: 245px;
+  border-radius: 56px;
+}
+
+.img img:first-of-type {
+  display: block;
+}
+
 @media (max-width: 900px) {
-  img {
+  #me {
     display: inline-block;
     margin: -20% auto;
     display: none;
