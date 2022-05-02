@@ -31,6 +31,9 @@ $(() => {
     $('#5').mouseout(function(){
     $('#5').css('color', 'black').css('text-shadow', 'none')
   })
+  $('#5').click(function(){
+    alert('Before you reach out: My rate is my rate! It is not up for negotation. Any inquiry attempting to negotiate will not receive a reply.')
+  })
   $('#linkedin').mouseover(function(){
     $('#linkedin').css('color', 'white').css('background-color', '#0077b5').css('padding', '2px').css('border-radius', '5px')
   })
