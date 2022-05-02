@@ -47,6 +47,12 @@ a {
   position: relative;
 }
 
+#instagram {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
 .aboutme {
   background-color: white;
   width:30em;
@@ -129,31 +135,78 @@ a {
 }
 
 @media (max-width: 900px) {
-  #me {
-    display: inline-block;
-    margin: -20% auto;
+  .nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    font-size: 15px;
+  }
+  .name {
+    font-size: 40px;
+    color: black;
+    margin-top: -20%;
     display: none;
+    text-align: center;
+  }
+  .title {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin: -5px;
+    display: none;
+  }
+  #me {
+    margin: 0 14%;
+    display: none;
+    max-width: 350px;
   }
   .aboutme {
     background-color: white;
     max-width:300px;
     padding: 2em;
     border-radius: 56px;
-    margin: 20% auto;
+    margin: 0 auto;
   }
   .projects {
     background-color: white;
     max-width: 300px;
     padding: 2em;
     border-radius: 56px;
-    margin: 50% auto;
+    margin: 0 auto;
   }
-
   .resume {
     background-color: white;
     max-width: 300px;
     padding: 2em;
     border-radius: 56px;
-    margin: 20% auto;
+    margin: 0 auto;
+  }
+  .carousel {
+    background-color: white;
+    width:14em;
+    height: 150px;
+    padding: 2em;
+    border-radius: 56px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .img {
+    max-height: 150px;
+    border-radius: 56px;
+  }
+  .img img:first-of-type {
+    display: block;
+  }
+  .contact {
+    background-color: white;
+    width: 300px;
+    padding: 2em;
+    border-radius: 56px;
+    margin: 0 auto;
   }
 }

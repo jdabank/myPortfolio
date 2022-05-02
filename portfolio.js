@@ -37,10 +37,14 @@ $(() => {
     $('#linkedin').mouseout(function(){
     $('#linkedin').css('color', 'black').css('background-color', 'white')
   })
+  $('#instagram').mouseover(function(){
+    $('#instagram').css('color', 'white').css('background-color', '#8A3AB9').css('padding', '2px').css('border-radius', '5px')
+  })
+    $('#instagram').mouseout(function(){
+    $('#instagram').css('color', 'black').css('background-color', 'white')
+  })
   $('#me').slideDown(4000)
-  // $('button').click(function() {
-  //   $('.img').css('display', 'none')
-  // })
+
   let currentImgIndex = 0
   const numOfImages = $('.carousel').children().length - 1
 
@@ -52,6 +56,5 @@ $(() => {
       currentImgIndex = 0
     }
     $('.carousel').children().eq(currentImgIndex).css('display', 'block')
-
   })
 })
