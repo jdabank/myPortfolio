@@ -83,6 +83,24 @@ a {
   color: rgba(0, 0, 0, 0);
 }
 
+#shop {
+    position: relative;
+    text-decoration: underline;
+}
+
+#shop:hover {
+    color: gray;
+}
+
+#potluck {
+    position: relative;
+    text-decoration: underline;
+}
+
+#potluck:hover {
+    color: gray;
+}
+
 #resume {
   margin-top: 50%;
   color: rgba(0, 0, 0, 0);
